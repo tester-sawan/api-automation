@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "message": "Users fetched successfully",
+  "total_users": 3,
+  "users": [
+    {
+      "id": 101,
+      "name": "Amit",
+      "email": "amit@test.com",
+      "role": "Admin",
+      "active": true
+    },
+    {
+      "id": 102,
+      "name": "Ravi",
+      "email": "ravi@test.com",
+      "role": "User",
+      "active": true
+    },
+    {
+      "id": 103,
+      "name": "Sumit",
+      "email": "sumit@test.com",
+      "role": "User",
+      "active": false
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "limit": 10
+  }
+}
