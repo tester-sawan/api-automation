@@ -4,15 +4,15 @@ base_url = "http://216.10.245.166"
 add_book_api = "/Library/Addbook.php"
 body_payload = {
 "name":"Learn Appium Automation with Java",
-"isbn":"abc",
-"aisle":"963",
+"isbn":"ooo",
+"aisle":"569",
 "author":"Sawan Kumar"
 }
 _header = {"Content-Type":"application/json"}
 
 response = requests.post(base_url+add_book_api,json=body_payload,headers=_header,)
 body=response.json()
-#print(body)
+print(body)
 
 if response.status_code == 200:
     if body["Msg"] == "successfully added":
