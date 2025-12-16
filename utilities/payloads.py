@@ -6,4 +6,8 @@ def addbook(isbn):
     "author":"John foe"
     }
     return payload
-
+def deletebook(id):
+    payload = {
+                "ID" : id
+            }
+    return payload
